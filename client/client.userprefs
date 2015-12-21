@@ -8,7 +8,7 @@
       <File FileName="../../star_client/star/Assets/Utility/System/Device/DeviceUtility.cs" Line="1" Column="1" />
       <File FileName="../../star_client/star/Assets/Editor/CriWare/CriWareBuildPostprocessor.cs" Line="1" Column="1" />
       <File FileName="../../star_client/star/Assets/Utility/Billing/BillingManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Rotation.cs" Line="13" Column="47" />
+      <File FileName="Assets/Scripts/Rotation.cs" Line="13" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
