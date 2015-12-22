@@ -16,3 +16,7 @@
 /Users/b05521/CloudBuildTest/client/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/b05521/CloudBuildTest/client/obj/Debug/Assembly-CSharp.dll
 /Users/b05521/CloudBuildTest/client/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/b05521/CloudBuildTest/client/Temp/bin/Debug/P31RestKit.dll
+/Users/b05521/CloudBuildTest/client/Temp/bin/Debug/JsonFx.Json.dll
+/Users/b05521/CloudBuildTest/client/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/b05521/CloudBuildTest/client/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb

@@ -45,16 +45,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Main.cs" />
      <Compile Include="Assets\Scripts\Rotation.cs" />
+     <Compile Include="Assets\Scripts\Utility\Billing\BillingManager.cs" />
+     <Compile Include="Assets\Scripts\Utility\Billing\GoogleIABPlugin.cs" />
+     <Compile Include="Assets\Scripts\Utility\Billing\PurchaseTransactionInfo.cs" />
+     <Compile Include="Assets\Scripts\Utility\Billing\SingletonMonoBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Utility\Billing\StoreKitPlugin.cs" />
+     <None Include="Assets\Plugins\Android\IAB_lib\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest_bk.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity_5.3.0/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity_5.3.0/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
+ <Reference Include="P31RestKit">
+ <HintPath>/Users/b05521/CloudBuildTest/client/Assets/Plugins/P31RestKit.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonFx.Json">
+ <HintPath>/Users/b05521/CloudBuildTest/client/Assets/Plugins/JsonFx.Json.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity_5.3.0/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{3A1B43A0-276E-34FB-197E-1ACDE9001A0F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
