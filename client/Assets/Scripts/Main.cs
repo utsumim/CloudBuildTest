@@ -119,11 +119,11 @@ public class Main : MonoBehaviour {
         }
 
         if (GUI.Button (new Rect (150, 0, 100, 100), "purchase")) {
-            BillingManager.Instance.PurchaseProductAuto ("jp.co.craftegg.nanairorungirls.gem.0005");
+			BillingManager.Instance.PurchaseProductAuto ("jp.co.craftegg.nanairorungirls.gem.0003");
         }
 
         if (GUI.Button (new Rect (300, 0, 100, 100), "consume")) {
-            BillingManager.Instance.ConsumeProduct ("jp.co.craftegg.nanairorungirls.gem.0005");
+			BillingManager.Instance.ConsumeProduct ("jp.co.craftegg.nanairorungirls.gem.0003");
         }
 
         if (GUI.Button (new Rect (450, 0, 100, 100), "inventory")) {
